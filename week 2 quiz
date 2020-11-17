@@ -1,0 +1,140 @@
+
+Question 1
+Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in numbers.How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
+16261
+What feature is common to all the rows that have a value of 37 in the “State” field of the Dognition_aggregated_by_DogID data set? Check all that apply
+They are all from Estonia
+Question 3
+What property is common to almost all the data points that had “Sign In Counts” of greater than 175 in the Dognition_aggregated_by_DogID data set?
+190lbs
+4.
+Question 4
+The Personality Dimension that has the highest average number of completed tests in the Dognition_aggregated_by_DogID data set is clearly:
+
+
+
+
+None of them. All of the personality dimensions have very similar completion rates.
+
+Correct
+You are right! Regardless of whether you take the average or the median of the number of tests the dogs in each group completed, all of the personality dimensions finished a similar number of tests. That said, take note that this could be a misleading result, because the personality information only becomes available after the dogs have completed the initial 20 tests that comprise the Dognition Assessment. As a consequence, we are looking at a pretty small subset of the overall population of dogs from our data set in this analysis.
+
+5.
+Question 5
+In the Dognition_aggregated_by_DogID data set, what is consistent about the relationship between breeding group and number of tests completed, regardless of whether you aggregate the variable representing the number of tests completed by the median or the average of the breeding group?
+Toy dogs complete the least number of tests
+
+Correct
+Regardless of whether you take the average or the median of the number of tests the dogs in each group completed, dogs in Toy Breed group always finish the least number of tests. What do you think this means for Dognition?
+
+6.
+Question 6
+In the Dognition_aggregated_by_DogID data set, what personality type has the strongest representation (greatest number of records) in the sporting breed group?
+
+Socialite
+Correct
+Those sporty dogs turn out to be social butterflies.
+
+7.
+Question 7
+In the Dognition_aggregated_by_DogID data set, which of the following describes the median number of tests dogs of different breed types complete?
+
+
+
+
+All breed types complete a median of 7 tests
+
+Correct
+They typically finish the first two categories of tests (the 4 Empathy tests, followed by the 3 Communication tests)
+
+8.
+Question 8
+In the Dognition_aggregated_by_DogID data set, how do the average number of tests dogs complete compare for fixed vs. not fixed dogs across different breed types? Click all that apply
+Fixed dogs complete more tests than non-fixed dogs in all breed types
+
+Correct
+Fixed dogs seem to, on average, finish more tests than non-fixed dogs. The data we have available does not provide much insight into whether that effect is more likely due to the biological effects of fixing a dog, or due to the psychological profile of owners who fix their dogs.
+
+
+The greatest difference between the average number of tests completed by fixed vs. non-fixed dogs occurs in the Mixed Breed/ I Don’t Know breed category
+
+Correct
+Fixed dogs seem to, on average, finish more tests than non-fixed dogs. The data we have available does not provide much insight into whether that effect is more likely due to the biological effects of fixing a dog, or due to the psychological profile of owners who fix their dogs.
+
+
+
+9.
+Question 9
+In the Dognition_aggregated_by_DogID data set, which of the following are true about the average number of tests dogs complete when comparing DNA vs. not DNA-tested dogs who were fixed vs. not fixed across different breed types? Click all that apply.
+
+The Cross-Breed dogs that were DNA tested but NOT fixed were mostly Labrador Retriever-Golden Retriever Mixes
+Correct
+In almost all categories, DNA-tested dogs completed an average of more tests than dogs who were not DNA-tested. However, the numbers of dogs who were DNA-tested were pretty small. Do you think this information could be useful to Dognition?
+
+There was only one dog in the Popular Hybrid breed category who was DNA tested but not fixed
+
+Correct
+Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+
+
+DNA-tested dogs completed more tests than dogs that were NOT DNA tested in all categories except for the category of Popular Hybrids who were fixed
+
+Correct
+In almost all categories, DNA-tested dogs completed an average of more tests than dogs who were not DNA-tested. However, the numbers of dogs who were DNA-tested were pretty small. Do you think this information could be useful to Dognition?
+
+10.
+Question 10
+In the Dognition_aggregated_by_DogID data set, when you make a filled map that displays the number of unique Dog IDs in each country, there is country in Africa that has a deep color, suggesting it has a lot of users. When you hover over that country, what Country is displayed on the tool tip?
+N/A
+Correct
+If you look at the raw data, you will see that the underlying value written in the "Country" column of all the rows Tableau is assuming are linked to that country is "N/A", which is an English abbreviation for “Not Available” or “Not Applicable”. In other words, those entries should be considered as missing data. However, Tableau incorrectly assumed that "N/A" stood for Namibia, which is an African country with a country abbreviation of "NA." Since there were a lot of entries with "N/A", Tableau filled in Namibia with a deep color.
+
+11.
+Question 11
+In the Dognition_aggregated_by_DogID data set, which state within the United States has the most Dognition customers?
+California, with New York having the second greatest number of customers
+
+12.
+Question 12
+In the Dognition_aggregated_by_DogID data set, dogs in which of the following states did customers complete a median number of tests that was greater than 13? Check all that apply.
+Maine (ME)
+
+Correct
+This is one of the states. Maine doesn't have a lot of customers, but the customers they did have finished a lot of tests.
+
+
+North Carolina (NC)
+
+Correct
+This is one of the states. North Carolina doesn't have a lot of customers, but the customers they did have finished a lot of tests.
+
+
+North Dakota (ND)
+
+Correct
+This is one of the states. North Dakota doesn't have a lot of customers, but the customers they did have finished a lot of tests.
+
+
+South Dakota (SD)
+
+
+
+13.
+Question 13
+Which of the following is true
+Averages are very sensitive to extreme values, as are regression statistics.
+
+14.
+Question 14
+In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 19 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply.
+There was a significant negative (p < .05) correlation between median ITIs and number of tests completed
+There was a significant positive (p < .05) correlation between average ITIs and number of tests completed
+
+15.
+Question 15
+In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 7 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply
+There was a significant negative (p < .05) correlation between median ITIs and number of tests completed
+There was a significant positive (p < .05) correlation between average ITIs and number of tests completed
+
+
+
